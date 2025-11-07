@@ -83,25 +83,26 @@ Vite runs at 👉 http://localhost:5173
 
 ## 💻 How It Works
 
-1. Upload an image with text (e.g., ID card / document / screenshot).
-2. Backend extracts text using Tesseract OCR.
-3. Regex detects emails, phones, names, etc.
-4. You select which items to redact.
-5. Redacted image (black boxes) is generated locally.
-6. Sent to AI (simulated until real key available).
-7. AI replies while keeping your data private.
+**1.** Upload an image with text (e.g., ID card / document / screenshot).
+**2.** Backend extracts text using Tesseract OCR.
+**3.** Regex detects emails, phones, names, etc.
+**4.** You select which items to redact.
+**5.** Redacted image (black boxes) is generated locally.
+**6.** Sent to AI (simulated until real key available).
+**7.** AI replies while keeping your data private.
 
 ---
 
 ## 🎥 1-Minute Demo Script
 
-👤 **You:** “This is Secure AI Chat, a privacy-first assistant that detects and redacts sensitive info before processing.”
-1️⃣ Upload an image → see detected PII on the right.
-2️⃣ Select items → click **Redact & Send.**
-3️⃣ Show the black-boxed redacted preview.
-4️⃣ Explain: “This ensures no private data ever reaches the AI.”
-5️⃣ Send a text → see simulated AI reply.
-🎯 **Wrap up:**
+- 👤 **You:** “This is Secure AI Chat, a privacy-first assistant that detects and redacts sensitive info before processing.”
+- 1️⃣ Upload an image → see detected PII on the right.
+- 2️⃣ Select items → click **Redact & Send.**
+- 3️⃣ Show the black-boxed redacted preview.
+- 4️⃣ Explain: “This ensures no private data ever reaches the AI.”
+- 5️⃣ Send a text → see simulated AI reply.
+
+#### 🎯 **Wrap up:**
 
 “When the official API key is added, the same workflow runs with GPT-4o — keeping privacy fully intact.”
 
@@ -131,18 +132,18 @@ secure-ai-chat/
 
 ## 🧰 Future Enhancements
 
--Real-time highlighting of PII on image preview
--Support for IBAN / credit card / address detection
--Docker + CI/CD deployment
--End-to-end upload encryption
+- Real-time highlighting of PII on image preview
+- Support for IBAN / credit card / address detection
+- Docker + CI/CD deployment
+- End-to-end upload encryption
 
 ---
 
 ## 🏁 Hackathon Summary
 
-**Goal:** Build a secure AI chat system where data is sanitized before AI processing.
-**Deliverables:** Full stack prototype + README + Demo.
-**Impact:** Privacy-first AI — preventing accidental data leaks and enabling ethical AI use.
+- **Goal:** Build a secure AI chat system where data is sanitized before AI processing.
+- **Deliverables:** Full stack prototype + README + Demo.
+- **Impact:** Privacy-first AI — preventing accidental data leaks and enabling ethical AI use.
 
 ---
 
