@@ -84,7 +84,7 @@ Vite runs at 👉 http://localhost:5173
 ## 💻 How It Works
 
 1. Upload an image with text (e.g., ID card / document / screenshot).
-2.Backend extracts text using Tesseract OCR.
+2. Backend extracts text using Tesseract OCR.
 3. Regex detects emails, phones, names, etc.
 4. You select which items to redact.
 5. Redacted image (black boxes) is generated locally.
